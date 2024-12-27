@@ -3,7 +3,7 @@ title: "Lenovo ThinkPad X250 Hackintosh"
 description: "Lenovo ThinkPad X250 Hackintosh - OpenCore Configuration."
 date: 2022-03-28
 tags: ["hackintosh", "OpenCore", "Lenovo ThinkPad X250", "macOS"]
-image: '../../../../public/votage/x250.png'
+image: '../../../../public/votage/x250.svg'
 authors: ["zamkara"]
 ---
 
@@ -48,7 +48,8 @@ Download the MacOS installation at the following link, [Download Here](https://w
 
     ```bash
     git clone https://github.com/zamkara/Lenovo-Thinkpad-X250-Hackintosh.git
-    ```
+    ``` 
+    or you can download it directly from the release [here](https://github.com/zamkara/Lenovo-Thinkpad-X250-Hackintosh/releases/latest).
 - Download *Wireless Kernel Extension* from [Bluetooth](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) & [itlwm](https://github.com/OpenIntelWireless/itlwm) then place it in the `$source/EFI/OC/Kexts` directory, be sure to download Airportitlwm for the appropriate macOS version or use itlwm for all macOS versions.
 - Update the config to register the kext that was added to the folder using [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) or [Opencore configurator](https://mackie100projects.altervista.org/download-opencore-configurator/).
 - Place the EFI on the EFI Bootable partition of the macOS installer that was prepared earlier.
