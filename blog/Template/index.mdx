@@ -1,10 +1,9 @@
 ---
-title: Quick start guide to writing
+title: Quick start Template to writing Post
 date: 1945-09-08
 image: '../../../../public/votage/keyboard.svg'
-description: ConfThis guide aims to serve as a template and starting point for new users.
+description: ConfThis dummy aims to serve as a template and starting point for new users.
 tags:
-  - Guide
   - Markdown
   - Post
   - Write
@@ -24,8 +23,7 @@ Contoh video dari Youtube
 {/* Contoh video dari Youtube */}
 <div className="border border-foreground/5 py-2 transition-colors bg-primary-foreground/50 backdrop-blur-lg duration-300 ease-in-out hover:bg-foreground/5 rounded-2xl px-2">
       <iframe
-        className="w-full rounded-xl"
-        height="305"
+        className="w-full h-80 rounded-xl"
         src="https://www.youtube.com/embed/_cMxraX_5RE?autoplay=1"
         title="YouTube video player"
         frameborder="0"
@@ -45,7 +43,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget mi et lorem fa
 Contoh Video Direct link
 {/* Contoh video dari Link */}
 <div onContextMenu="return false" draggable="false">
-    <video frameborder  autoplay allowfullscreen allow loop
+    <video frameborder controls controlsList="play nofullscreen nodownload noremoteplayback noplaybackrate volume" autoplay allowfullscreen allow loop
     className="
       rounded-2xl border border-foreground/5 py-2 px-2 h-auto w-full transition-colors bg-primary-foreground/50 backdrop-blur-lg duration-300 ease-in-out hover:bg-foreground/5">
       <source
@@ -83,10 +81,172 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget mi et lorem fa
 - List 2
 - List 3
 
-## Heading 2
+## Ikin Sugiharto
+
+<div style={{ display: 'flex', flexWrap: 'wrap' }} className="gap-1 w-[10%] mt-3">
+  {[
+    "https://mir-s3-cdn-cf.behance.net/user/115/69e5f5454012423.63281edd07a8a.png"
+  ].map((src, index) => (
+    <img
+      key={index}
+      src={src}
+      onContextMenu="return false"
+      draggable="false"
+      className="border bg-foreground/5 border-foreground/5 hover:bg-foreground/10 hover:border-foreground/10 p-1 backdrop-blur-lg -mb-0 mt-0 rounded-full border border-foreground/10 transition-all duration-500"
+      alt={`Gambar ${index + 1}`}
+    />
+  ))}
+</div>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget mi et lorem facilisis tempus. Aenean vel sapien felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin ante neque, maximus nec fringilla et, mattis eget purus. Nam accumsan odio et eros finibus rhoncus et ac orci. Morbi nec pretium arcu, eget mollis orci. 
+
+<div>
+  <div style={{ display: 'flex', flexWrap: 'wrap' }} className="gap-1 w-[100%] mt-3">
+  {[
+    "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/eca69c202036159.667ec45bbc00e.png",
+    "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/afab47202036159.667ec45bbc991.png"
+  ].map((src, index) => (
+    <img
+      key={index}
+      src={src}
+      className="grayscale w-[49%] hover:grayscale-0 border bg-foreground/5 border-foreground/5 hover:bg-foreground/10 hover:border-foreground/10 p-2 backdrop-blur-lg -mb-0 mt-0 hover:rounded-lg border border-foreground/10 border-1 rounded-2xl transition-all duration-500"
+      alt={`Gambar ${index + 1}`}
+    />
+  ))}
+  </div>
+
+  <div style={{ display: 'flex', flexWrap: 'wrap' }} className="gap-1 w-[100%] mt-3">
+  {[
+    "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/6de647202036159.667ec45c9ecda.png",
+    "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/e5da36202036159.667ec45c9e8ad.png",
+    "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/41036f202036159.667ec45c9e3b3.png"
+  ].map((src, index) => (
+    <img
+      key={index}
+      src={src}
+      className="grayscale w-[32%] hover:grayscale-0 border bg-foreground/5 border-foreground/5 hover:bg-foreground/10 hover:border-foreground/10 p-2 backdrop-blur-lg -mb-0 mt-0 hover:rounded-lg border border-foreground/10 border-1 rounded-2xl transition-all duration-500"
+      alt={`Gambar ${index + 1}`}
+    />
+  ))}
+  </div>
+</div>
+
+## Rafi Rahmat Dani
+
+<div style={{ display: 'flex', flexWrap: 'wrap' }} className="gap-1 w-[10%] mt-3">
+  {[
+    "https://mir-s3-cdn-cf.behance.net/user/115/98fa88184479657.66d12def8cd70.png"
+  ].map((src, index) => (
+    <img
+      key={index}
+      src={src}
+      onContextMenu="return false"
+      draggable="false"
+      className="border bg-foreground/5 border-foreground/5 hover:bg-foreground/10 hover:border-foreground/10 p-1 backdrop-blur-lg -mb-0 mt-0 rounded-full border border-foreground/10 transition-all duration-500"
+      alt={`Gambar ${index + 1}`}
+    />
+  ))}
+</div>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget mi et lorem facilisis tempus. Aenean vel sapien felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin ante neque, maximus nec fringilla et, mattis eget purus. Nam accumsan odio et eros finibus rhoncus et ac orci. Morbi nec pretium arcu, eget mollis orci. 
+<div className="border border-foreground/5 py-1 transition-colors bg-primary-foreground/50 backdrop-blur-lg duration-300 ease-in-out hover:bg-foreground/5 rounded-2xl px-2">
+      <img 
+      src="https://mir-s3-cdn-cf.behance.net/52b72dff0fc0b222387e25c803388e34/31daa9c9-001a-4aab-8b80-7049bfcf2f6b_rwc_0x0x3200x404x3200.png"
+      alt="Image example"
+      className="w-full rounded-lg my-1" 
+      onContextMenu="return false"
+      draggable="false"
+      />
+</div>
+
+Aenean aliquet, magna at viverra tincidunt, ex lacus vehicula nisl, sit amet gravida lorem velit a nisl. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam interdum est justo, sit amet suscipit mi interdum eget. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum enim neque, varius sed dolor a, tincidunt dignissim magna. Aliquam erat volutpat.
+
+<div>
+  <div style={{ display: 'flex', flexWrap: 'wrap', flexDirection: 'column' }} className="gap-3 mt-3">
+    {[ 
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/80c753196485095.673811d0978b8.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/432674215398629.676ab86aaa2f6.png"
+    ].map((src, index) => (
+      <div key={index}>
+        <img
+          src={src}
+          alt={`Gambar ${index + 1}`}
+          onContextMenu="return false"
+          draggable="false"
+          className="grayscale hover:grayscale-0 border bg-foreground/5 border-foreground/5 hover:bg-foreground/10 hover:border-foreground/10 p-2 backdrop-blur-lg -mb-0 mt-0 hover:rounded-lg border border-foreground/10 border-1 rounded-2xl transition-all duration-500"
+        />
+      </div>
+    ))}
+
+    </div>
+</div>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget mi et lorem facilisis tempus. Aenean vel sapien felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin ante neque, maximus nec fringilla et, mattis eget purus. Nam accumsan odio et eros finibus rhoncus et ac orci. Morbi nec pretium arcu, eget mollis orci. Aenean aliquet, magna at viverra tincidunt, ex lacus vehicula nisl, sit amet gravida lorem velit a nisl. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+
+  {/* Bentoo */}
+  <div className="p-2 bg-foreground">
+  <div 
+  style={{ width: '100%' }}
+  className="text-xl h-auto mb-8 font-serif font-bold bg-blue-800 py-1 text-blue-100 text-center">
+    <p>Esport Academy and Community</p>
+  </div>
+
+  <div style={{ display: 'flex', flexWrap: 'wrap', flexDirection: 'column' }}>
+    {[ 
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/80c753196485095.673811d0978b8.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/432674215398629.676ab86aaa2f6.png"
+    ].map((src, index) => (
+      <div key={index}>
+        <img
+          src={src}
+          alt={`Gambar ${index + 1}`}
+          onContextMenu="return false"
+          draggable="false"
+          className="-mt-8"
+        />
+      </div>
+    ))}
+    </div>
+
+  <div 
+  style={{ width: '100%' }}
+  className="text-xl h-auto -mt-8 font-serif font-bold bg-green-700 py-1 text-green-200 text-center">
+    <p>Esport Academy and Community</p>
+  </div>
+
+  <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+  {[
+    "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/eca69c202036159.667ec45bbc00e.png",
+    "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/afab47202036159.667ec45bbc991.png"
+  ].map((src, index) => (
+    <img
+      key={index}
+      src={src}
+      alt={`Gambar ${index + 1}`}
+      className="w-[50%] my-0"
+    />
+  ))}
+  </div>
+
+  <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+  {[
+    "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/6de647202036159.667ec45c9ecda.png",
+    "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/e5da36202036159.667ec45c9e8ad.png",
+    "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/41036f202036159.667ec45c9e3b3.png"
+  ].map((src, index) => (
+    <img
+      key={index}
+      src={src}
+      alt={`Gambar ${index + 1}`}
+      className="my-0 w-[33.33%]"
+    />
+  ))}
+  </div>
+  </div>
+  
+
 > Aenean aliquet, magna at viverra tincidunt, ex lacus vehicula nisl, sit amet gravida lorem velit a nisl. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam interdum est justo, sit amet suscipit mi interdum eget. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum enim neque, varius sed dolor a, tincidunt dignissim magna. Aliquam erat volutpat.
+
 
 ### Heading 3
 
